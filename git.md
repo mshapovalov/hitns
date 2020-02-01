@@ -11,4 +11,7 @@
 
 export PS1="[\u@\h \W]\$(git_branch)\$ "
 </code></pre>
+<p>Load the  <code>~/.bashrc</code>  to apply changes for the current session without login/logout:</p>
+<pre><code>$ source ~/.bashrc
+</code></pre>
 
